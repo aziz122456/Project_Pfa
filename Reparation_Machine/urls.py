@@ -40,6 +40,6 @@ path('close_ticke/', CloseTicketView.as_view(), name='CloseTicke'),
 path('filter_tickets_By_Status/', FilterTicketsByStatusView.as_view(), name='filter_tickets_By_Status'),
 path('filter_tickets_By_Status/', FilterTicketsByStatusView.as_view(), name='filter_tickets_By_Status'),
 path('filter_Technician_Tickets/', TechnicianTicketsView.as_view(), name='filter_Technician_Tickets'),
-path('role/',RoleView.as_view(), name='role'),
+path('role/',RoleView.as_view(), name='role') ,
 
 ]
